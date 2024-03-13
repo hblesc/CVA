@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CustVA Alpha</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico"> 
+        <link rel="stylesheet" href="CustVA.css">  
+     </head>
+
+    <body>
+   <div class="textbox">
+
+        <input type="text" id="textInput" placeholder="Message" style="
+        position: fixed;
+        bottom: 6%;
+        left: 1%;
+        width: 90%;
+        height: 4%;
+        resize: none;
+        text-size-adjust: 10px;
+        background-color: black;
+        color: aqua;
+        border: solid 5px white;
+        "></input>
+   
+  </div>
+        <!---->
+        
+        <button id="thingy" onclick="displayText()" style="
+        position: fixed;
+        bottom: 6%;
+        left: 95%;
+        width: 4%;
+        height: 5.5%;
+        font-size: 150%;
+        
+        ">Send</button>
+
+        <h3 class="username"></h3>
+        <h2 id="displayArea" class="message-area"></h2>
+        <h6 id="nenis" class="nenis">[]</h6>
+
+        <div class="bar" style="top: -1%;"><h2>| CustVA Alpha v2.0.1</h2></div>
+        <div class="bar" style="top: 4.5%;"><h3>| |TX| |TX| |TX|</h2></div>
+        <div class="bar" style="
+        top: -10%; 
+        animation-name: apu;
+        animation-name: announcment;
+        animation-duration: 15s;
+        animation-timing-function: linear;
+        ">
+        
+        <h3>CustVA Alpha v1.1.0 | Updates: You can now send messages on individual clients! Your messages will not be dislpayed on other instances. | //do not zoom in with ctrl+/ctrl- because it will break the site, i dont know how to fix this.</h2></div>
+
+         <div class="login" id="myDiv">
+
+            <h2 align="center">Settings</h2>
+            <h3>Change Your Avatar:</h3>
+            <input type="file" id="avatarInput" accept="image/*" class="bittin">Upload an Avatar<br>
+            <h3>><</h3>
+            <button onclick="changeUsername()" align="center"><h3>Change my Username</h3></button>
+            <h3>><</h3>
+            <h3>Change Theme</h3>
+            <button>*Not Implemented*</button>
+            <h3>><</h3>
+            <button onclick="toggleDiv()" class="Xbut"><h2>Save and Close</h2></button>
+         </div> 
+         <div class="login" id="info">
+            <h2>
+                CustVA Info and Development Notes
+            </h2>
+            <h3>We didnt write this yet lmao</h3>
+
+            <button onclick="toggleInfo()"><h2 class="closebut">Close This Menu</h2></button>
+         </div>
+         <button class="mamomi" onclick="toggleDiv()">Settings</button>
+         
+        
+        <div class="bar" style="
+        bottom: -1%;
+        height: 5%;
+        ">| |PFP| |PFP| |PFP| |PFP|</div>
+        <script src="CustVA.js">
+
+        </script>
+        
+    </body>
+</html>
+

@@ -1,0 +1,168 @@
+body {background-image: url("wallpaper.png");}
+p {color:aqua}
+h1 {color:aqua}
+h2 {color: aqua}
+h3 {color:aqua}
+h4 {color:aqua}
+h5 {color:aqua}
+h6 {color:aqua}
+
+
+textarea{
+    background-color: black;
+    color: aqua;
+    border: 5px solid aqua;
+}
+
+button{
+    background-color: black;
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+@font-face {
+    font-family: vcrfont;
+    src: url(VCRMONO.ttf);
+  }
+  
+  div {
+    font-family: vcrfont;
+  }
+
+  * {
+    font-family: vcrfont;
+}
+
+@keyframes announcment{
+  0%{left: -1%; top: -10; animation-timing-function: ease-out;} /* start */
+  4%{top: 11%; animation-timing-function: ease-in;} /* when the  */
+  5%{top: 10%;}
+  15%{left: -1%;}
+  40%{left: -20%;}
+  60%{left: -20%;}
+  85%{left: -1%;}
+  95%{top: 10%; animation-timing-function: ease-out;}
+  96%{top: 11%; animation-timing-function: ease-in;}
+  100%{left: -1%; top: -10%;}
+}
+
+.bar{
+    border: 5px solid aqua;
+    position: fixed;
+    left: -1%;
+    width: 1000%;
+    height: 5%;
+    background-color: black;
+}
+
+.login{
+  height: 50%;
+  width: 40%;
+  border: 5px solid ;
+  border-color: aqua;
+  position: fixed;
+  bottom: 25%;
+  left: 30%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 8);;
+  border-radius: 3%;
+}
+
+.input-box{
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  margin: 31px auto;
+  width: 80%;
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.input-box input{
+  width: 90%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: aqua;
+  font-size: 25px;
+
+}
+.submit{
+  border-color: aqua;
+  background: transparent;
+  color: aqua;
+  border: solid 1px;
+}
+.user{
+  height: 50%;
+  width: 40%;
+  border: 5px solid aqua;
+  position: fixed;
+  bottom: 25%;
+  left: 30%;
+  text-align: center;
+}
+.message-area{
+  border: none;
+  position: absolute;
+  bottom: 10%;
+  left: 1%;
+}
+.username{
+  border: none;
+  position: absolute;
+  bottom: 10%;
+  left: 1%;
+  color: blue;
+}
+.textbox {
+  position: fixed;
+  bottom: 6%;
+  left: 1%;
+  width: 90%;
+  height: 4%;
+  resize: none;
+ text-size-adjust: 10px;
+}
+.bittin{
+  border-color: aqua;
+ border: solid 1px;
+ background-color: black;
+ color: aqua; 
+ left: 43%;
+ position: fixed;
+
+ text-size-adjust: 20px;
+}
+.mamomi {
+  border-color: aqua;
+  border: solid 5px;
+  background-color: black;
+  color: aqua; 
+  position: fixed;
+  top: 0.5%;
+  right: 0.5%;
+  text-size-adjust: 20px;
+  padding: 10px;
+}
+#myDiv{
+  display: none;
+}
+#info {
+  display: none;
+}
+.closebut{
+  bottom: 1%;
+}
+.Xbut{
+width: 300px;
+padding: 1px;
+}
+.taxtable{
+  border-right: 5px solid aqua;
+  left: 15%;
+}
+.nenis{
+  right: 0%;
+}

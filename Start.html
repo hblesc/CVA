@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CustVA LOGINTH JDFSLHJK</title>
+        <link rel="stylesheet" href="CustVA.css">
+        <link rel="icon" type="image/x-icon" href="imaGES/favicon.png">
+    </head>
+    <body>
+        <div class="bar" style="top: -1%;"><h2>| CustVA 1.0.0</h2></div>
+       
+        <div class="login">
+            <h1>Use an Access Code</h1>
+            <div class="input-box">
+                <form action="CustVA.html" onsubmit="return passcheck()"> 
+                <input type="password" placeholder="Accsess Code" required id="Heeble">    
+            </div>
+            <div>
+                  
+                <input class="submit" type="submit">
+            </form>
+        </div>
+            
+
+            <h2 style="position: absolute; top: 50%;">This is a beta version of CustVA. An account system hasn't been developed yet. Use the server's accsess code given by a developer to accsess the Beta test</h3>
+                
+            <script>
+                var password = 'Heeble'
+                function passcheck() {
+                if(document.getElementById('Heeble').value != password) {
+                    alert('Wrong Password Dumbass');
+                    return false;
+                }
+                
+                if(document.getElementById('Heeble').value == password) {
+                    alert('You are now logged in! Press OK to contiue');
+                }
+                }
+
+
+
+            </script>
+        </div>
+        
+    </body>
+</html>
